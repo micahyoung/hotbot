@@ -1,0 +1,3 @@
+[submodule "libs/DHT22"]
+	path = libs/DHT22
+	url = git://github.com/ringerc/Arduino-DHT22.git
