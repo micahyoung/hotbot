@@ -26,7 +26,7 @@ void loop(void)
       humidity = myDHT22.getHumidity();
 
       char buf[128];
-      sprintf(buf, "{temperature: %i, humidity: %i}", temperature, humidity);
+      sprintf(buf, '{"temperature": %i, "humidity": %i}', temperature, humidity);
       Serial.println(buf);
       break;
     case DHT_ERROR_CHECKSUM:
